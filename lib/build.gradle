@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.mobideck'
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -30,7 +34,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
 
-    compile 'com.github.mobideck:appdeck-android-plugin:1.0.0'
+    compile 'com.github.mobideck:appdeck-android-plugin:1.0.4'
 
 
 }
